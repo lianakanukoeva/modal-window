@@ -1,0 +1,21 @@
+.wrapper {
+	position: relative;
+	width: 100%; 
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+section {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+h2
+{
+	margin-top: 0;
+	font-weight: normal;
+}

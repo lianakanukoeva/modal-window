@@ -1,0 +1,37 @@
+.aboutUs{
+    min-height: 100%;
+    padding: 3%;
+}
+.aboutUs__text{
+    padding: 2%;
+}
+.aboutUs__inform{
+    position: relative;
+    width: 65%;
+    margin: 0 auto;
+}
+.aboutUs__line{
+    position: absolute;
+    top: 40px;
+    z-index: -1;
+    width: 80%;
+    display: flex;
+    align-content: center;
+    height: 1.5px;
+    background-color: #666;
+}
+.aboutUs__icons{
+    display: flex;
+    align-content: space-between;
+    font-size: 14px;
+}
+.aboutUs__item{
+    width: 25%;
+    img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+    p{
+        max-width: 60%;
+    }
+}

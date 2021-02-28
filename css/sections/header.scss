@@ -1,0 +1,24 @@
+.header{
+    background-color: #ef851c;
+    padding: 15px;
+}
+.header__wrapp{
+    width: 45%;
+    margin: 0 auto;
+}
+.header__list{
+    display: flex;
+    justify-content: space-around;
+}
+.header__item{
+    a{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: #ccc;
+        }
+        &:active{
+            color: #fff;
+        }
+    }
+}
